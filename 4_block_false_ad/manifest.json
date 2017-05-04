@@ -1,0 +1,12 @@
+{
+	"manifest_version": 2,
+	"name" : "block false",
+	"version": "1.2",
+	"description": "C",
+	"content_scripts":[
+		{
+			"matches": ["*://search.51job.com/*","*://www.51job.com/*"],
+			"js": ["js/jquery.js","js/block.js"]
+		}
+	]
+}
